@@ -21,6 +21,7 @@
     animation: closeModal 0.4s ease-out forwards;
 }
 
+/*here opneModal is the animation name*/
 @keyframes openModal {
     0% {
         opacity: 0;
@@ -48,5 +49,6 @@
     100% {
         opacity: 0;
         transform: translateY(-100%);
+        /*to move this out from the screen -100% is used*/
     }
 }
